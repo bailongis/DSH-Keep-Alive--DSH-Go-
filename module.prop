@@ -1,0 +1,6 @@
+id=dsh_keepalive
+name=DSH Keep Alive
+version=1.2
+versionCode=3
+author=DSH
+description=DSH 后台保活：关闭 phantom 进程限制、DSH 加入 Doze 白名单、后台 appops、active bucket；watchdog 每 10 秒检查；App 被清掉或引擎 libproot 消失时自动重启。无法阻止系统强制停止/最近任务划卡。
