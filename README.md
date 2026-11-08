@@ -81,12 +81,7 @@ su -c 'cat /sdcard/Download/DSH-Go/keepalive.log'
 
 SukiSU / KernelSU / Magisk → 模块 → 卸载 → 重启。  
 `uninstall.sh` 会尝试杀掉 watchdog。
-
-## 发布
-
-- `module.prop` 改 `version` / `versionCode`
-- 运行 `python3 build.py` 生成模块 zip
-- 打 tag（如 `v1.2`）后 GitHub Actions 会自动建 Release 并附 zip
+声明：本模块由DeepSeek-V4.1-Flash完成，她主人只是个吃白饭的。
 
 ## License
 
